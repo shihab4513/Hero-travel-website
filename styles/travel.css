@@ -219,6 +219,104 @@ flex-shrink: 0;
 height: 300px;
 flex-shrink: 0;
 }
+/*      */
+
+.why-choose{
+
+    width: 1170px;
+    height: 750px;
+    margin: 0 auto;
+    margin-bottom: 500px;
+  
+    
+}
+.why-choose-content{
+    
+}
+.why-choose-content h1{
+color: #131318;
+text-align: center;
+
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.why-choose-content p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+
+font-size: 1rem;
+font-weight: 400;
+
+margin-bottom: 24px;
+}
+.reason{
+    
+    height: 284px;
+    gap: 24px;
+  
+   align-items: center;
+   width: 1170px;
+   margin-bottom: 100px;
+}
+.hotel{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.reason img{
+    width: 64px;
+height: 64px;
+margin-bottom: 32px;
+margin-top: 32px;
+margin-left: 32px;
+}
+.reason h3{
+color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+margin-left: 32px;
+}
+.reason p{
+    margin-bottom: 32px;
+    margin-top: 12px;
+margin-left: 32px;
+    width: 486px;
+    color: #5A5A5D;
+font-size: 1rem;
+
+font-weight: 400;
+
+}
+.service{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.price{
+
+    width: 573px;
+    height: 284px;
+margin: 0 auto;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+
+.hotel-and-service{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+    
+}
+
 
 @media screen and (max-width: 600px) {
     header , main{
@@ -270,6 +368,30 @@ flex-shrink: 0;
     .destination h1{
        width: 100%;
     
+    }
+    .hotel-and-service{
+        flex-direction: column;
+        
+        
+    }
+    .reason{
+       margin: 0px;
+       padding: 0px;
+       align-items: start;
+      
+    }
+    .hotel{
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    .why-choose,.why-choose div{
+
+        width: 100%;
+       
+    }
+    .why-choose p{
+        width: 90%;
     }
 }
 
