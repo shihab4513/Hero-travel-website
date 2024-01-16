@@ -1,12 +1,13 @@
 *{
     font-family: 'Mulish', sans-serif;
     margin: 0 auto;
+    
 }
 footer{
     font-family: 'Inter', sans-serif;
 }
-header{
-    max-width: 1500px;
+header,main{
+    max-width: 1170px;
 }
 
 nav{
@@ -36,75 +37,211 @@ nav li {
     font-weight: 700;
 
 }
-
-
-.banner-section{
-    gap: 24px;
-
- text-align: center;
- width: 1170px;
-height: 500px;
-margin: 0 auto;
-border-radius: 16px;
-background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png') ;
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
 }
-.section-content{
+.banner-title{
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+    word-wrap: break-word;
     padding-top: 106px;
-     gap: 24px;
- }
- .box-elements{
-     display: inline-flex;
-     padding: 16px;
-     align-items:center;
-     gap: 24px;
-     border-radius: 8px;
-     background: rgba(255, 255, 255, 0.30);
-     height: 84px;
-     width: 800px;
-     margin: 0 auto;
-     margin-top: 50px;
-     gap: 24px;
-     justify-content: center;
-     
- }
- .section-title{
-     color: #FFF;
- 
- font-size: 64px;
- padding-bottom: 24px;
- font-weight: 800;
- 
- 
- }
- .where-to-go{
-     display: flex;
- }
- .section-description{
-     width: 676px;
-     color: #FFF;
-     margin: 0 auto;
- text-align: center;
- 
- font-size: 1rem;
- font-weight: 400;
- 
- 
- }
- .box{
-     width: 174px;
- height: 52px;
- border: none;
- border-radius: 8px;
- background: #FFF;
- text-align: center;
- }
- .box-color{
-     border-radius: 8px;
- background: #FF5400;
- width: 174px;
- height: 52px;
- text-align: center;
- color: white;
- border: none;
- }
+}
+.banner-description{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding: 24px 247px 48px 247px;
+}
+.banner-form{
+    background-color: rgb(255,255,255,0.30);
+    width: 70%;
+    max-height: auto;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 24px;
+    justify-content: center;
+}
+.banner-form select{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: left;
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px;
+    box-shadow: none;
+}
 
+.primary-button{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FF5400;
+    /* max-width: 174px; */
+    width: 100%;
+    height: 52px;
+    box-shadow: none;
+    border-radius: 8px;
+    padding: 16px 16px;
+    border: none;
+}
+
+.tour{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 53px;
+    margin-bottom: 100px;
+}
+.secondary-button{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+border:none;
+font-size: 1.25rem;
+margin-top: 46px;
+
+font-weight: 800;
+
+}
+.tour-title{
+    color: #131318;
+
+
+font-size: 2.5rem;
+
+font-weight: 800;
+padding-bottom: 24px;
+
+}
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 1rem;
+padding-bottom: 24px;
+font-weight: 400;
+
+}
+.tour-description li{
+    padding-bottom: 24px;
+}
+.tour-description-2{
+    color: #5A5A5D;
+
+font-size: 1rem;
+
+font-weight: 400;
+
+}
+
+
+/* .... */
+.row {
+    /* height: 400px; */
+    display: flex;
+    
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.img-1{
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.img-2{
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.img-3{
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+
+}
+.img-5{
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+}
+
+.img-4{
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+}
+.img-6{
+    width: 473px;
+height: 300px;
+flex-shrink: 0;
+}
+.img-7{
+    width: 673px;
+height: 300px;
+flex-shrink: 0;
+}
+
+@media screen and (max-width: 600px) {
+    header , main{
+        max-width: 85%;
+        margin: 0 auto;
+    } 
+    nav ul{
+        display: none;
+    }
+    .toggle-menu{
+        display: flex;
+    }
+    .banner-form{
+        flex-direction: column;
+        max-width: 250px;
+        height: 250px;
+        gap: 16px;
+    }
+    .banner-form select {
+        width: 100%;
+    }
+    .primary-button{
+        width: 100%;
+    }
+    .banner{
+        margin-top: 17px;
+    }
+    .banner-title{
+        padding-top: 32px;
+        font-size: 1.375rem;
+    }
+    .banner-description{
+        padding: 8px 15px 32px 15px;
+        font-size: 0.8rem;
+    }
+    .tour{
+        flex-direction: column;
+    }
+    .tour img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+ 
