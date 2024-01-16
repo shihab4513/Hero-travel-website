@@ -1,0 +1,110 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0 auto;
+}
+footer{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    max-width: 1500px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    
+}
+nav ul{
+    display: flex;
+}
+.nav-title{
+    color: #131318;
+font-size: 2.25rem;
+font-weight: 800;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
+nav li {
+    list-style: none;
+    margin-right: 44px;
+    font-size: 1.125rem;
+
+    font-weight: 700;
+
+}
+
+
+.banner-section{
+    gap: 24px;
+
+ text-align: center;
+ width: 1170px;
+height: 500px;
+margin: 0 auto;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png') ;
+}
+.section-content{
+    padding-top: 106px;
+     gap: 24px;
+ }
+ .box-elements{
+     display: inline-flex;
+     padding: 16px;
+     align-items:center;
+     gap: 24px;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+     height: 84px;
+     width: 800px;
+     margin: 0 auto;
+     margin-top: 50px;
+     gap: 24px;
+     justify-content: center;
+     
+ }
+ .section-title{
+     color: #FFF;
+ 
+ font-size: 64px;
+ padding-bottom: 24px;
+ font-weight: 800;
+ 
+ 
+ }
+ .where-to-go{
+     display: flex;
+ }
+ .section-description{
+     width: 676px;
+     color: #FFF;
+     margin: 0 auto;
+ text-align: center;
+ 
+ font-size: 1rem;
+ font-weight: 400;
+ 
+ 
+ }
+ .box{
+     width: 174px;
+ height: 52px;
+ border: none;
+ border-radius: 8px;
+ background: #FFF;
+ text-align: center;
+ }
+ .box-color{
+     border-radius: 8px;
+ background: #FF5400;
+ width: 174px;
+ height: 52px;
+ text-align: center;
+ color: white;
+ border: none;
+ }
+
