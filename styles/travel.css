@@ -151,6 +151,29 @@ font-weight: 400;
 
 
 /* .... */
+.destination{
+    margin-bottom: 100px;
+}
+.destination h1{
+    color: #131318;
+text-align: center;
+
+font-size: 2.5rem;
+
+font-weight: 800;
+padding-bottom: 24px;
+
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+
+font-size: 1rem;
+
+font-weight: 400;
+padding-bottom: 48px;
+
+}
 .row {
     /* height: 400px; */
     display: flex;
@@ -160,13 +183,13 @@ font-weight: 400;
 }
 
 .img-1{
-    width: 573px;
-    height: 300px;
+    width: 50%;
+    
     flex-shrink: 0;
 }
 .img-2{
-    width: 573px;
-    height: 300px;
+    width: 50%;
+    
     flex-shrink: 0;
 }
 .img-3{
@@ -176,7 +199,7 @@ font-weight: 400;
 
 }
 .img-5{
-    width: 274px;
+    width: 300px;
     height: 286px;
     flex-shrink: 0;
 }
@@ -187,12 +210,12 @@ font-weight: 400;
     flex-shrink: 0;
 }
 .img-6{
-    width: 473px;
+    width: 480px;
 height: 300px;
 flex-shrink: 0;
 }
 .img-7{
-    width: 673px;
+    width: 690px;
 height: 300px;
 flex-shrink: 0;
 }
@@ -236,6 +259,17 @@ flex-shrink: 0;
     }
     .tour img{
         width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row img{
+        width: 335px;
+        height: 176px;
+    }
+    .destination h1{
+       width: 100%;
+    
     }
 }
 
