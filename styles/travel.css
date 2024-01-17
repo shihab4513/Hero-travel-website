@@ -371,7 +371,7 @@ nav li {
 
 .newsletter-column1 {
     width: 474px;
-    height: 422px;
+    height: 390px;
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid #FF5400;
@@ -662,17 +662,20 @@ footer {
     }
 
     .newsletter-column1 {
-        width: 27%;
-        padding: 0px;
-        margin: 0px;
-        padding: 10px;
-        padding-left: 20px;
-        margin-left: 0px;
+       
+        width: 292px;
+height: 353px;
+
+padding: 20px;
+margin: 0px;
     }
 
     .newsletter-column2 {
-        width: 29%;
-        margin: 0px;
+       
+        width: 335px;
+height: 300px;
+flex-shrink: 0;
+margin:0px;
     }
 
     .primary-button {
